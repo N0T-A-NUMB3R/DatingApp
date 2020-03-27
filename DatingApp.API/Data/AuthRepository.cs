@@ -20,10 +20,12 @@ namespace DatingApp.API.Data
             {   //qua andrà scritto che non è stato trovato
                 return null; 
             }
+            /*
             if(!VerifyPasswordHash(password, user.PasswordHash , user.PasswordSalt))
             {
                 return null;
             }
+            */
             return user;
         }
 
@@ -31,10 +33,10 @@ namespace DatingApp.API.Data
         {
             using (var hmac = new HMACSHA512(passwordSalt))
             {
-                var computeHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
-                for(var i=0; i< computeHash.Length; i++)
+                var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+                for(var i=0; i< computedHash.Length; i++)
                 {
-                    if(computeHash[i] != passwordHash[i])
+                    if(computedHash[i] != passwordHash[i])
                     {
                         return false;
                     }
