@@ -50,6 +50,14 @@
               "target": "Package",
               "version": "[3.1.2, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
             "sqlite": {
               "target": "Package",
               "version": "[3.13.0, )"
