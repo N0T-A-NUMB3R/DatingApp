@@ -30,10 +30,16 @@
                 {
                   "input": "./node_modules/font-awesome/css/font-awesome.min.css"
                 },
+                {
+                  "input": "./node_modules/alertifyjs/build/css/alertify.min.css"
+                },
+                {
+                  "input": "./node_modules/alertifyjs/build/css/themes/bootstrap.min.css"
+                },
                 "src/styles.css"
               ],
             "scripts": [
-             
+              "./node_modules/alertifyjs/build/alertify.min.js"
             ]
           },
           "configurations": {
