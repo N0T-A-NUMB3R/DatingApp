@@ -28,7 +28,7 @@
                   "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
                 },
                 {
-                  "input": "./node_modules/bootswatch/dist/united/bootstrap.min.css"
+                  "input": "./node_modules/bootswatch/dist/litera/bootstrap.min.css"
                 },
                 {
                   "input": "./node_modules/font-awesome/css/font-awesome.min.css"
