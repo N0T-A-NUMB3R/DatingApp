@@ -34,12 +34,13 @@ namespace DatingApp.API
             services.AddCors();
             var connectionString = Configuration["ConnectionStrings: DateAppCs"];
             services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DateAppCs")));
+            services.AddTransient<Seed>();
             services.AddScoped<IAuthRepository,AuthRepository>();
             services.AddControllers();
             
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, Seed seeder)
         {
             if (env.IsDevelopment())
             {
@@ -62,6 +63,8 @@ namespace DatingApp.API
                     });
                 });
             }
+
+            seeder.SeedUsers();
 
             app.UseCors(
                 options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()

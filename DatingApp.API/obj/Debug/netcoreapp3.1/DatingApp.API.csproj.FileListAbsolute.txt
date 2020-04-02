@@ -68,3 +68,4 @@ C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore
 C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Data\UserSeedData.json
