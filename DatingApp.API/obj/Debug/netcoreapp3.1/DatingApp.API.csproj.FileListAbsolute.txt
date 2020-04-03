@@ -72,3 +72,5 @@ C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Data\UserSeedData.js
 C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using AutoMapper;
 using DatingApp.API.Data;
 using DatingApp.API.Helpers;
 using Microsoft.AspNetCore.Builder;
@@ -32,10 +33,12 @@ namespace DatingApp.API
         
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors();
+            
             var connectionString = Configuration["ConnectionStrings: DateAppCs"];
             services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DateAppCs")));
+            services.AddAutoMapper(typeof(Startup));
             services.AddTransient<Seed>();
+            services.AddCors();
             services.AddScoped<IAuthRepository,AuthRepository>();
             services.AddScoped<IDatingRepository,DatingRepository>();
             services.AddControllers().AddNewtonsoftJson(opt =>
