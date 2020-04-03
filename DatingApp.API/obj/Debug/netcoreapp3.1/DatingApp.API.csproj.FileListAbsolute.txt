@@ -69,3 +69,6 @@ C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityMo
 C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\package-lock.json
 C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Data\UserSeedData.json
+C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Progetti\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
