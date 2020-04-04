@@ -10,11 +10,13 @@ using System.Text;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DatingApp.API.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]    
+    [ApiController]
+    [AllowAnonymous]    
     public class AuthController : ControllerBase
     {        
         private readonly IAuthRepository repo;
