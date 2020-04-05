@@ -16,6 +16,7 @@ export class MemberDetailComponent implements OnInit {
      private route:ActivatedRoute) { }
 
   ngOnInit() {
+    this.loadUser();
   }
 
   //members/4
