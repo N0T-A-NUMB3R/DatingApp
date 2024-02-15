@@ -6,7 +6,6 @@ Login/signup:
 Lists of matches <3:
 ![matches](https://github.com/N0T-A-NUMB3R/DatingApp/blob/master/Da2.JPG)
 
-
 Profile information:
 ![profile](https://github.com/N0T-A-NUMB3R/DatingApp/blob/master/Da3.JPG)
 
